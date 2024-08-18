@@ -1,18 +1,20 @@
 from importlib.metadata import version
 
 WELCOME_MESSAGE: str = f"""
-Hello! I am running aitelegrambot v{version('aitelegrambot')}.
+Olá! Bem-vinde! 
 
-To inference something please run, /infer.
+Sou um bot baseado em LLM especialista em Data Analytics e Data Science. Você pode me fazer perguntas sobre esses temas e eu procurarei responder da melhor forma possível.
 
-I am licensed under the GPLv3. For more information, Please find the source code at https://github.com/tusharhero/aitelegrambot.git/
+Vamos começar?
+
+PS: bot adaptado de https://github.com/tusharhero/aitelegrambot
 """
 HELP_MESSAGE: str = """
-*Normal commands*:
+*Comandos*:
 - /start
-- /infer <query>
+- /prompt <query>
 - /help
-*Administration commands*:
+*Comandos administrativos*:
 - /list\_models
 - /change\_model <model\_name>
 - /pull\_model <model\_name>
